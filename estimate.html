@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style-page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+                    <button type="button" class="menu-btn"><span></span></button>
+                    <nav class="menu about-menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="index.html">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Тест</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link menu__list-link--active" href="about.html">О нас</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="price.html">Цены</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user-nav">
+                        <a class="user-nav__phone" href="tel:+77005053000">+7 700 505 30 00</a>
+                        <p class="user-nav__time">с 9:00 до 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="main main-estimate">
+            <section class="main-tender__top">
+                <div class="main-tender__inner">
+                    <div class="container">
+                        <h1 class="main-tender__title">Составление сметы</h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <p class="main-tender__text">Мы составим смету проекта на основе выбранного дизайн-шаблона с учетом
+                        особенностей вашей квартиры и разработанной планировки. Для каждой позиции в смете мы подберем 2
+                        варианта, укажем название, артикул и ссылку на магазин, а также посчитаем необходимое количество
+                        всех чистовых материалов для реализации проекта.
+                    </p>
+                    <div class="main-tender__box main-tender-box">
+                        <div class="main-tender-box__btns">
+                            <a class="main-tender-box__btns-btn basket" href="#">В корзину</a>
+                            <a class="main-tender-box__btns-link" href="#">Купить</a>
+                        </div>
+                        <div class="main-tender-box__prices">
+                            <p class="main-tender-box__prices-text">Стоимость услуги: <span>39 000тг</span></p>
+                        </div>
+                    </div>
+                    <h5 class="main-tender__title-about">
+                        Что вы получаете
+                    </h5>
+                    <div class="main-tender__info">
+                        <a href="#" class="main-tender__info-link">Пример отчета<span>Pdf 2,5 Мб</span></a>
+                    </div>
+                </div>
+            </section>
+            <section class="main-tender__aditional-services aditional-services">
+                <div class="container">
+                    <h2 class="aditional-services__title litle-title">Смотрите также</h2>
+                    <div class="aditional-services__swiper aditional-services-swiper swiper">
+                        <div
+                            class="aditional-services-swiper__wrapper aditional-services-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="aditional-services-swiper-wrapper__slide aditional-services-swiper-wrapper-slide swiper-slide">
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__image" alt="picture">
+                                    <img class="aditional-services-swiper-wrapper-slide__image-img"
+                                        src="images/aditional-services-img-2.jpg" alt="picture">
+                                </a>
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__link">Составление сметы</a>
+                            </div>
+                            <div
+                                class="aditional-services-swiper-wrapper__slide aditional-services-swiper-wrapper-slide swiper-slide">
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__image" alt="picture">
+                                    <img class="aditional-services-swiper-wrapper-slide__image-img"
+                                        src="images/aditional-services-img-3.jpg" alt="picture">
+                                </a>
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__link">Печать альбома</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Главная</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Тест</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">О нас</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Цены</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Условия пользования</a>
+                        </li>
+                    </ul>
+                    <div class="user-nav">
+                        <a class="user-nav__phone" href="tel:+77005053000">+7 700 505 30 00</a>
+                        <p class="user-nav__time">с 9:00 до 18:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p class="footer__copy-text">(с) 2022. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

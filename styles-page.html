@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style-page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+                    <button type="button" class="menu-btn"><span></span></button>
+                    <nav class="menu about-menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="index.html">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Тест</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link menu__list-link--active" href="about.html">О нас</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="price.html">Цены</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user-nav">
+                        <a class="user-nav__phone" href="tel:+77005053000">+7 700 505 30 00</a>
+                        <p class="user-nav__time">с 9:00 до 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="main main-styles">
+            <div class="main-styles__inner">
+                <div class="container">
+                    <h1 class="main-styles__big-title">Наши стили</h1>
+                </div>
+                <div class="container-fluid">
+                    <div class="container">
+                        <h2 class="main-styles__title title-line">
+                            Гостиные
+                        </h2>
+                    </div>
+                    <div class="main-styles__swiper main-styles-swiper swiper">
+                        <div class="main-styles-swiper__wrapper main-styles-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-1.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Акварель</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-2.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Ира</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-3.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Нурс</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="main-styles-swiper__prev swiper-button-prev"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                        <div class="main-styles-swiper__next swiper-button-next"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="container">
+                        <h2 class="main-styles__title title-line">
+                            Детские
+                        </h2>
+                    </div>
+                    <div class="main-styles__swiper main-styles-swiper swiper">
+                        <div class="main-styles-swiper__wrapper main-styles-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-4.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Синяя</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-5.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Розовая</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-6.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Яркая</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="main-styles-swiper__prev swiper-button-prev"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                        <div class="main-styles-swiper__next swiper-button-next"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="container">
+                        <h2 class="main-styles__title title-line">
+                            Коридоры - прихожие
+                        </h2>
+                    </div>
+                    <div class="main-styles__swiper main-styles-swiper swiper">
+                        <div class="main-styles-swiper__wrapper main-styles-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-7.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Ирина</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-8.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Акварель</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-9.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Кадыр</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="main-styles-swiper__prev swiper-button-prev"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                        <div class="main-styles-swiper__next swiper-button-next"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="container">
+                        <h2 class="main-styles__title title-line">
+                            Кухни
+                        </h2>
+                    </div>
+                    <div class="main-styles__swiper main-styles-swiper swiper">
+                        <div class="main-styles-swiper__wrapper main-styles-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-10.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Ирина</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-11.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Акварель</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-12.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Кадыр</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="main-styles-swiper__prev swiper-button-prev"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                        <div class="main-styles-swiper__next swiper-button-next"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="container">
+                        <h2 class="main-styles__title title-line">
+                            Санузлы
+                        </h2>
+                    </div>
+                    <div class="main-styles__swiper main-styles-swiper swiper">
+                        <div class="main-styles-swiper__wrapper main-styles-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-13.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Нурл су</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-14.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Оркенд су 1</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-15.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Оркенд су 2</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="main-styles-swiper__prev swiper-button-prev"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                        <div class="main-styles-swiper__next swiper-button-next"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="container">
+                        <h2 class="main-styles__title title-line">
+                            Спальни
+                        </h2>
+                    </div>
+                    <div class="main-styles__swiper main-styles-swiper swiper">
+                        <div class="main-styles-swiper__wrapper main-styles-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-16.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Акварель</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-17.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Нурл свет</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                            <div
+                                class="main-styles-swiper-wrapper__slide main-styles-swiper-wrapper-slide swiper-slide">
+                                <img class="main-styles-swiper-wrapper-slide__img" src="images/styles-swiper-img-18.png"
+                                    alt="picture">
+                                <div class="main-styles-swiper-wrapper-slide__box">
+                                    <p class="main-styles-swiper-wrapper-slide__text">Ира</p>
+                                    <a class="main-styles-swiper-wrapper-slide__btn" href="#">Выбрать</a>
+                                </div>
+                                <div class="main-styles-swiper-wrapper__slide-pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="main-styles-swiper__prev swiper-button-prev"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                        <div class="main-styles-swiper__next swiper-button-next"><svg width="44" height="45"
+                                viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                                    fill="#262626" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Главная</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Тест</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">О нас</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Цены</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Условия пользования</a>
+                        </li>
+                    </ul>
+                    <div class="user-nav">
+                        <a class="user-nav__phone" href="tel:+77005053000">+7 700 505 30 00</a>
+                        <p class="user-nav__time">с 9:00 до 18:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p class="footer__copy-text">(с) 2022. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

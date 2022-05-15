@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style-page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+                    <button type="button" class="menu-btn"><span></span></button>
+                    <nav class="menu about-menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="index.html">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Тест</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link menu__list-link--active" href="about.html">О нас</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="price.html">Цены</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user-nav">
+                        <a class="user-nav__phone" href="tel:+77005053000">+7 700 505 30 00</a>
+                        <p class="user-nav__time">с 9:00 до 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="main main-style">
+            <div class="container-fluid">
+                <div class="main-style-swiper__button-prev swiper-button-prev">
+                    <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                            fill="#262626" />
+                    </svg>
+                </div>
+                <div class="main-style-swiper__button-next swiper-button-next">
+                    <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="44" y="45" width="44" height="45" rx="22" transform="rotate(180 44 45)" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M27 22C27 22.1894 26.9276 22.3711 26.7987 22.505C26.6697 22.6389 26.4949 22.7142 26.3126 22.7142L18.3481 22.7142L21.2999 25.7793C21.429 25.9134 21.5015 26.0953 21.5015 26.2849C21.5015 26.4746 21.429 26.6565 21.2999 26.7906C21.1708 26.9247 20.9957 27 20.8132 27C20.6306 27 20.4556 26.9247 20.3265 26.7906L16.202 22.5056C16.1379 22.4393 16.0871 22.3605 16.0525 22.2737C16.0178 22.187 16 22.0939 16 22C16 21.9061 16.0178 21.8131 16.0525 21.7263C16.0871 21.6395 16.1379 21.5607 16.202 21.4944L20.3265 17.2094C20.4556 17.0753 20.6306 17 20.8132 17C20.9957 17 21.1708 17.0753 21.2999 17.2094C21.429 17.3435 21.5015 17.5254 21.5015 17.7151C21.5015 17.9047 21.429 18.0866 21.2999 18.2207L18.3481 21.2858L26.3126 21.2858C26.4949 21.2858 26.6697 21.3611 26.7987 21.495C26.9276 21.6289 27 21.8106 27 22Z"
+                            fill="#262626" />
+                    </svg>
+                </div>
+                <div class="container-left">
+                    <div class="main-style__inner">
+                        <div class="main-style__swiper main-style-swiper">
+                            <div class="main-style-swiper__wrapper main-style-swiper-wrapper swiper-wrapper">
+                                <div class="main-style-swiper-wrapper__slide swiper-slide">
+                                    <a data-fancybox="gallery" href="images/style-swiper-img.png" class="main-style-swiper-wrapper__slide-link">
+                                        <img class="main-style-swiper-wrapper__slide-img"
+                                            src="images/style-swiper-img.png" alt="picture">
+                                    </a>
+                                    <a class="main-style-swiper-wrapper__slide-link" data-fancybox="gallery" href="images/style-swiper-img.png">
+                                        <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M33.4115 30.1436L45.7407 42.4728C46.174 42.9064 46.4174 43.4945 46.4171 44.1075C46.4169 44.7206 46.1732 45.3085 45.7395 45.7418C45.3059 46.1752 44.7178 46.4185 44.1048 46.4183C43.4917 46.4181 42.9038 46.1743 42.4705 45.7407L30.1413 33.4115C26.4556 36.2662 21.8209 37.6096 17.1799 37.1684C12.5389 36.7272 8.24036 34.5345 5.15864 31.0365C2.07692 27.5384 0.443558 22.9978 0.590823 18.3382C0.738089 13.6786 2.65492 9.25016 5.95138 5.9537C9.24784 2.65724 13.6763 0.740408 18.3359 0.593143C22.9954 0.445877 27.5361 2.07924 31.0341 5.16096C34.5322 8.24268 36.7248 12.5413 37.1661 17.1822C37.6073 21.8232 36.2639 26.4579 33.4092 30.1436H33.4115ZM18.9167 32.6667C22.5634 32.6667 26.0608 31.2181 28.6394 28.6394C31.2181 26.0608 32.6667 22.5635 32.6667 18.9167C32.6667 15.27 31.2181 11.7726 28.6394 9.19401C26.0608 6.61539 22.5634 5.16673 18.9167 5.16673C15.27 5.16673 11.7726 6.61539 9.19399 9.19401C6.61536 11.7726 5.1667 15.27 5.1667 18.9167C5.1667 22.5635 6.61536 26.0608 9.19399 28.6394C11.7726 31.2181 15.27 32.6667 18.9167 32.6667ZM25.7917 21.2084H21.2084V25.7917C21.2084 26.3995 20.9669 26.9824 20.5372 27.4122C20.1074 27.842 19.5245 28.0834 18.9167 28.0834C18.3089 28.0834 17.726 27.842 17.2963 27.4122C16.8665 26.9824 16.625 26.3995 16.625 25.7917V21.2084H12.0417C11.4339 21.2084 10.851 20.967 10.4213 20.5372C9.99148 20.1074 9.75004 19.5245 9.75004 18.9167C9.75004 18.3089 9.99148 17.726 10.4213 17.2963C10.851 16.8665 11.4339 16.6251 12.0417 16.6251H16.625V12.0417C16.625 11.4339 16.8665 10.851 17.2963 10.4213C17.726 9.99151 18.3089 9.75006 18.9167 9.75006C19.5245 9.75006 20.1074 9.99151 20.5372 10.4213C20.9669 10.851 21.2084 11.4339 21.2084 12.0417V16.6251H25.7917C26.3995 16.6251 26.9824 16.8665 27.4122 17.2963C27.8419 17.726 28.0834 18.3089 28.0834 18.9167C28.0834 19.5245 27.8419 20.1074 27.4122 20.5372C26.9824 20.967 26.3995 21.2084 25.7917 21.2084Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="main-style-swiper-wrapper__slide swiper-slide">
+                                    <a data-fancybox="gallery" href="images/style-swiper-img.png" class="main-style-swiper-wrapper__slide-link">
+                                        <img class="main-style-swiper-wrapper__slide-img"
+                                            src="images/style-swiper-img.png" alt="picture">
+                                    </a>
+                                    <a class="main-style-swiper-wrapper__slide-link" data-fancybox="gallery" href="images/style-swiper-img.png">
+                                        <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M33.4115 30.1436L45.7407 42.4728C46.174 42.9064 46.4174 43.4945 46.4171 44.1075C46.4169 44.7206 46.1732 45.3085 45.7395 45.7418C45.3059 46.1752 44.7178 46.4185 44.1048 46.4183C43.4917 46.4181 42.9038 46.1743 42.4705 45.7407L30.1413 33.4115C26.4556 36.2662 21.8209 37.6096 17.1799 37.1684C12.5389 36.7272 8.24036 34.5345 5.15864 31.0365C2.07692 27.5384 0.443558 22.9978 0.590823 18.3382C0.738089 13.6786 2.65492 9.25016 5.95138 5.9537C9.24784 2.65724 13.6763 0.740408 18.3359 0.593143C22.9954 0.445877 27.5361 2.07924 31.0341 5.16096C34.5322 8.24268 36.7248 12.5413 37.1661 17.1822C37.6073 21.8232 36.2639 26.4579 33.4092 30.1436H33.4115ZM18.9167 32.6667C22.5634 32.6667 26.0608 31.2181 28.6394 28.6394C31.2181 26.0608 32.6667 22.5635 32.6667 18.9167C32.6667 15.27 31.2181 11.7726 28.6394 9.19401C26.0608 6.61539 22.5634 5.16673 18.9167 5.16673C15.27 5.16673 11.7726 6.61539 9.19399 9.19401C6.61536 11.7726 5.1667 15.27 5.1667 18.9167C5.1667 22.5635 6.61536 26.0608 9.19399 28.6394C11.7726 31.2181 15.27 32.6667 18.9167 32.6667ZM25.7917 21.2084H21.2084V25.7917C21.2084 26.3995 20.9669 26.9824 20.5372 27.4122C20.1074 27.842 19.5245 28.0834 18.9167 28.0834C18.3089 28.0834 17.726 27.842 17.2963 27.4122C16.8665 26.9824 16.625 26.3995 16.625 25.7917V21.2084H12.0417C11.4339 21.2084 10.851 20.967 10.4213 20.5372C9.99148 20.1074 9.75004 19.5245 9.75004 18.9167C9.75004 18.3089 9.99148 17.726 10.4213 17.2963C10.851 16.8665 11.4339 16.6251 12.0417 16.6251H16.625V12.0417C16.625 11.4339 16.8665 10.851 17.2963 10.4213C17.726 9.99151 18.3089 9.75006 18.9167 9.75006C19.5245 9.75006 20.1074 9.99151 20.5372 10.4213C20.9669 10.851 21.2084 11.4339 21.2084 12.0417V16.6251H25.7917C26.3995 16.6251 26.9824 16.8665 27.4122 17.2963C27.8419 17.726 28.0834 18.3089 28.0834 18.9167C28.0834 19.5245 27.8419 20.1074 27.4122 20.5372C26.9824 20.967 26.3995 21.2084 25.7917 21.2084Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="main-style-swiper-wrapper__slide swiper-slide">
+                                    <a data-fancybox="gallery" href="images/style-swiper-img.png" class="main-style-swiper-wrapper__slide-link">
+                                        <img class="main-style-swiper-wrapper__slide-img"
+                                            src="images/style-swiper-img.png" alt="picture">
+                                    </a>
+                                    <a class="main-style-swiper-wrapper__slide-link" data-fancybox="gallery" href="images/style-swiper-img.png">
+                                        <svg width="47" height="47" viewBox="0 0 47 47" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M33.4115 30.1436L45.7407 42.4728C46.174 42.9064 46.4174 43.4945 46.4171 44.1075C46.4169 44.7206 46.1732 45.3085 45.7395 45.7418C45.3059 46.1752 44.7178 46.4185 44.1048 46.4183C43.4917 46.4181 42.9038 46.1743 42.4705 45.7407L30.1413 33.4115C26.4556 36.2662 21.8209 37.6096 17.1799 37.1684C12.5389 36.7272 8.24036 34.5345 5.15864 31.0365C2.07692 27.5384 0.443558 22.9978 0.590823 18.3382C0.738089 13.6786 2.65492 9.25016 5.95138 5.9537C9.24784 2.65724 13.6763 0.740408 18.3359 0.593143C22.9954 0.445877 27.5361 2.07924 31.0341 5.16096C34.5322 8.24268 36.7248 12.5413 37.1661 17.1822C37.6073 21.8232 36.2639 26.4579 33.4092 30.1436H33.4115ZM18.9167 32.6667C22.5634 32.6667 26.0608 31.2181 28.6394 28.6394C31.2181 26.0608 32.6667 22.5635 32.6667 18.9167C32.6667 15.27 31.2181 11.7726 28.6394 9.19401C26.0608 6.61539 22.5634 5.16673 18.9167 5.16673C15.27 5.16673 11.7726 6.61539 9.19399 9.19401C6.61536 11.7726 5.1667 15.27 5.1667 18.9167C5.1667 22.5635 6.61536 26.0608 9.19399 28.6394C11.7726 31.2181 15.27 32.6667 18.9167 32.6667ZM25.7917 21.2084H21.2084V25.7917C21.2084 26.3995 20.9669 26.9824 20.5372 27.4122C20.1074 27.842 19.5245 28.0834 18.9167 28.0834C18.3089 28.0834 17.726 27.842 17.2963 27.4122C16.8665 26.9824 16.625 26.3995 16.625 25.7917V21.2084H12.0417C11.4339 21.2084 10.851 20.967 10.4213 20.5372C9.99148 20.1074 9.75004 19.5245 9.75004 18.9167C9.75004 18.3089 9.99148 17.726 10.4213 17.2963C10.851 16.8665 11.4339 16.6251 12.0417 16.6251H16.625V12.0417C16.625 11.4339 16.8665 10.851 17.2963 10.4213C17.726 9.99151 18.3089 9.75006 18.9167 9.75006C19.5245 9.75006 20.1074 9.99151 20.5372 10.4213C20.9669 10.851 21.2084 11.4339 21.2084 12.0417V16.6251H25.7917C26.3995 16.6251 26.9824 16.8665 27.4122 17.2963C27.8419 17.726 28.0834 18.3089 28.0834 18.9167C28.0834 19.5245 27.8419 20.1074 27.4122 20.5372C26.9824 20.967 26.3995 21.2084 25.7917 21.2084Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="main-style__info main-style-info">
+                <div class="container">
+                    <div class="main-style-info__inner">
+                        <div class="main-style-info__body">
+                            <p class="main-style-info__body-suptitle">
+                                Гостиные
+                            </p>
+                            <h2 class="main-style-info__body-title">Акварель (Dark)</h2>
+                            <p class="main-style-info__body-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Ac consequat a, ligula consequat tellus. In tellus ultrices senectus nisl sit.
+                            </p>
+                            <a href="#" class="main-style-info__body-btn basket">В корзину</a>
+                            <p class="main-style-info__body-price">Стоимость комнаты: 30 000kzt </p>
+                        </div>
+                        <div class="main-style-info__box">
+                            <p class="main-style-info__box-text">-Цветовая гамма: <span>прохладная палитра</span></p>
+                            <p class="main-style-info__box-text">-Основные материалы:<span>краска, белая эмаль</span>
+                            </p>
+                            <p class="main-style-info__box-text">-Акцентные элементы:<span>лиловый цвет в отделке
+                                    стен</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-style__aditional-services aditional-services">
+                <div class="container">
+                    <h2 class="aditional-services__title litle-title">Дополнительные услуги</h2>
+                    <div class="aditional-services__swiper aditional-services-swiper swiper">
+                        <div
+                            class="aditional-services-swiper__wrapper aditional-services-swiper-wrapper swiper-wrapper">
+                            <div
+                                class="aditional-services-swiper-wrapper__slide aditional-services-swiper-wrapper-slide swiper-slide">
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__image" alt="picture">
+                                    <img class="aditional-services-swiper-wrapper-slide__image-img"
+                                        src="images/aditional-services-img-1.jpg" alt="picture">
+                                </a>
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__link">Тендер строительных
+                                    бригад</a>
+                            </div>
+                            <div
+                                class="aditional-services-swiper-wrapper__slide aditional-services-swiper-wrapper-slide swiper-slide">
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__image" alt="picture">
+                                    <img class="aditional-services-swiper-wrapper-slide__image-img"
+                                        src="images/aditional-services-img-2.jpg" alt="picture">
+                                </a>
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__link">Составление сметы</a>
+                            </div>
+                            <div
+                                class="aditional-services-swiper-wrapper__slide aditional-services-swiper-wrapper-slide swiper-slide">
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__image" alt="picture">
+                                    <img class="aditional-services-swiper-wrapper-slide__image-img"
+                                        src="images/aditional-services-img-3.jpg" alt="picture">
+                                </a>
+                                <a href="#" class="aditional-services-swiper-wrapper-slide__link">Печать альбома</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__about about">
+                <div class="container-fluid">
+                    <div class="about__inner">
+                        <div class="container">
+                            <div class="about__body about-body">
+                                <h2 class="about-body__title">Как это работает?</h2>
+                                <div class="about-body__content">
+                                    <ul class="about-body__list">
+                                        <li class="about-body__item">
+                                            <p class="about-body__text">Выбор состава проекта</p>
+                                            <p class="about-body__text-subtext">Выберите состав вашего проекта:
+                                                дизайн-проект или только
+                                                планировка</p>
+                                        </li>
+                                        <li class="about-body__item">
+                                            <p class="about-body__text">Настройка проекта</p>
+                                            <p class="about-body__text-subtext">Отметьте в корзине нужен ли вам
+                                                профессиональный замер, подбор
+                                                строительной бригады или точный просчет сметы</p>
+                                        </li>
+                                        <li class="about-body__item">
+                                            <p class="about-body__text">Создание чертежей</p>
+                                            <p class="about-body__text-subtext">Наши дизайнеры спроектируют интерьер,
+                                                подготовят чертежи и
+                                                сметы.</p> <br>
+                                            <p class="about-body__text-subtext">Вуаля, ваш проект готов</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Главная</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Тест</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">О нас</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Цены</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-link">Условия пользования</a>
+                        </li>
+                    </ul>
+                    <div class="user-nav">
+                        <a class="user-nav__phone" href="tel:+77005053000">+7 700 505 30 00</a>
+                        <p class="user-nav__time">с 9:00 до 18:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p class="footer__copy-text">(с) 2022. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
